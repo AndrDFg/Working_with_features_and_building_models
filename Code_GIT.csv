@@ -1,20 +1,21 @@
 git pull https://github.com/AndrDFg/Working_with_features_and_building_models.git -- обновление между лок и удал. репозиторием (добавление)
-
 git clone https://github.com/AndrDFg/Working_with_features_and_building_models.git -- клонирование удаленного репозитория в локальный
 
-cd Working_with_features_and_building_models -- команда cd - доступ к папке...
+Работа с файлами и папками
+cd /D/Temp/Учёба/VSC/Working_with_features_and_building_models -- команда cd - доступ к папке где репозиторий
+cd .. -- Переход в папку на уровень выше
+pwd -- Просмотр текущий путь папки
+ls -- список файлов и папок, ls -Force (отображение скрытых файлов и папок в PowerShell)
+git global list -- список настроек локального репозитария
+mkdir новая папка -- создание папки
+cat название файла -- просмотр содержимого файла
+rm название файла -- удаление файла
 
-pwd -- показывет какой путь к репозитарию
-
+git branch -- просмотр текущей ветки
 git remote -v -- покажет какой удаленный репозиторий привязан к локальному репозиторию  
-
 git add DZ_1_classification_logisticy_regression_and_svm.ipynb -- добавление конкретного файла
-
 git commit -- открытия редактора с целью выполненения соммит 
-
 git commit -m "primery" -- коммит ранее добавенных файлов без открытия редактора  
-
 git commit -a -m "primery" -- добавление всех файлов и их коммит без открытия редактора 
-
 git remote add origin <REMOTE_URL> -- создание удалённого репозитария
 
